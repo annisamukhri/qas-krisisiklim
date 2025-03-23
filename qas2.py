@@ -6,7 +6,7 @@ import pandas as pd
 
 @st.cache_resource
 def load_model():
-    return SentenceTransformer('finetuned-indoSBERT')
+    return SentenceTransformer('annisamukhri/indosbert-climate-faq')
 
 model = load_model()
 
